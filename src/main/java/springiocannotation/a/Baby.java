@@ -5,11 +5,22 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Baby {
-	
+//	 public static void main(String[] args) {
+//		IceCream iceCream=new Strawberry();
+//		iceCream.open();
+		
+//		 Venilla venilla=new Venilla();
+//	}
 	@Autowired
-	IceCream i;
+	IceCream i;                         //venilla v;
+										//Strawberry s;
 	
 	 void eat() {
-		 i.open();
+		 i.open();						//v.open();
+		 								//s.open();
 	 }
 }
+
+
+
+//field injection
